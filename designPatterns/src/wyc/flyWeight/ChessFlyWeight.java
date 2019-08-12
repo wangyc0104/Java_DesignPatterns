@@ -13,11 +13,11 @@ public interface ChessFlyWeight {
 	void display(Coordinate c);
 }
 
-class ConcreteCless implements ChessFlyWeight {
+class ConcreteChess implements ChessFlyWeight {
 
 	private String color;
 
-	public ConcreteCless(String color) {
+	public ConcreteChess(String color) {
 		super();
 		this.color = color;
 	}

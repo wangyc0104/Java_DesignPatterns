@@ -3,6 +3,12 @@ package wyc.proxy.dynamicProxy;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
+/**
+ * | 抽象角色中(接口)声明的所有方法都被转移到 <br>
+ * | 调用处理器一个集中的方法中处理，这样，我们 <br>
+ * | 可以更加灵活和统一的处理众多的方法。 <br>
+ * @author Yicheng Wang
+ */
 public class StarHandler implements InvocationHandler {
 
 	Star realStar;

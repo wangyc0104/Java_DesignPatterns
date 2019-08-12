@@ -175,7 +175,7 @@
                               <constraint>
                                 <height>-1</height>
                                 <width>-1</width>
-                                <x>634</x>
+                                <x>618</x>
                                 <y>205</y>
                               </constraint>
                               <sourceConnections>
@@ -249,8 +249,8 @@
                                     <constraint>
                                       <height>30</height>
                                       <width>100</width>
-                                      <x>525</x>
-                                      <y>307</y>
+                                      <x>866</x>
+                                      <y>296</y>
                                     </constraint>
                                     <sourceConnections>
                                       <net.java.amateras.uml.model.AnchorModel reference="../../.."/>
@@ -435,7 +435,7 @@
                                 </net.java.amateras.uml.properties.BooleanPropertyDescriptor>
                               </propertyDescriptors>
                               <stereoType></stereoType>
-                              <name>wyc.flyWeight.ChessFlyWeight.ConcreteCless</name>
+                              <name>wyc.flyWeight.ChessFlyWeight.ConcreteChess</name>
                               <path>/WYC_设计模式/src/wyc/flyWeight/ChessFlyWeight.java</path>
                               <isAbstract>false</isAbstract>
                             </source>

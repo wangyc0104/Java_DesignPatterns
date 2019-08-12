@@ -15,11 +15,12 @@ public class Development implements Department {
 
 	@Override
 	public void selfAction() {
-		System.out.println("专心科研，开发项目！");
+		System.out.println("开发部：专心科研，开发项目！");
 	}
 
 	@Override
 	public void outAction() {
-		System.out.println("汇报工作！没钱了，需要资金支持！");
+		System.out.println("开发部：汇报工作！没钱了，需要资金支持！");
+		m.command("financial");
 	}
 }

@@ -22,7 +22,7 @@ public class ChessFlyWeightFactory {
 		if (map.get(color) != null) {
 			return map.get(color);
 		} else {
-			ChessFlyWeight cfw = new ConcreteCless(color);
+			ChessFlyWeight cfw = new ConcreteChess(color);
 			map.put(color, cfw);
 			return map.get(color);
 		}
